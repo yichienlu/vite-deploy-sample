@@ -10,6 +10,10 @@ export default {
 <template>
   <div class="container">
     <NavbarComponent></NavbarComponent>
+    
+  </div>
+  <div class="container">
+    <router-view></router-view>
   </div>
 </template>
 
